@@ -1,0 +1,36 @@
+# Dependencias y resultados de pruebas
+node_modules/
+artifacts/
+coverage/
+*.log
+
+# Configuración y copias locales de herramientas
+.openai/
+.site-workflow/
+.sites-checkout/
+.sites-runtime/
+.git-sites-backup/
+.codex/
+.agents/
+.aws/
+
+# Variables locales y credenciales
+.env
+.env.*
+!.env.example
+.npmrc
+
+# Paquetes de publicación generados
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+*.swp
+
+# dist/ contiene el código de la aplicación y se versiona.

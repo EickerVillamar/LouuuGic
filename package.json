@@ -1,0 +1,15 @@
+{
+  "name": "louuugic-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Retos de lógica matemática y seguimiento de metas personales.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "npm --prefix louuugic start",
+    "check": "npm --prefix louuugic run check",
+    "test": "npm run check",
+    "test:browser": "npm --prefix louuugic run test:browser"
+  }
+}
